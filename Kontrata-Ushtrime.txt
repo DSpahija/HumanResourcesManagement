@@ -1,0 +1,39 @@
+
+					Neni 4
+I punesuari eshte i detyruar te filloj punen, me #DataNisjes. Ne rast se i punesuari nuk fillon punen diten
+e caktuar sipas kesaj Kontrate te Punes, do te konsiderohet se nuk ka themeluar marredhenie pune, pervec
+nese eshte penguar te filloj punenper shkaqe te arsyeshme.
+
+
+					Neni 5
+Te punesuarit i caktohet paga baze per punen te cilen e kryen per punedhenesin, ne lartesi prej: #RrogaBruto euro, 
+se paku nje here ne muaj e cila nuk mund te jete me e ulet se paga minimale.
+
+
+					Neni 6
+I punesuari ka te drejte ne kompensim te pages pa u angazhuar ne pune, ne rastet si ne vijim:
+	1) Gjate diteve te festave ne te cilat nuk punohet;
+	2) Gjate kohes se shfrytezimit te pushimit vjetor;
+	3) Gjate aftesimit dhe persosjes profesionale per te cilen eshte derguar;
+	4) Gjate ushtrimit te funksioneve publike per te cilat nuk paguhet.
+
+
+					Neni 7
+I punesuari ka te drejte ne kompensim te pushimit mjekesor te pages baze, prej:
+	1) 100% ne rast te shfrytezimit te pushimit mjekesor te rregullt, mbi bazen deri
+	   ne 20 dite pune bre nje(1) viti;
+	2) 70% ne rast te shfrytezimit te pushimit mjekesor si pasoje e lendimit ne pune ose 
+	   semundjes profesionale, e cila nderlidhet me kryesrjen e puneve dhe sherbimeve
+	   per punedhenesin, ne kohezgjatje prej dhjete(10) deri ne nentedhjete(90) dite pune.
+	
+					Neni 8
+Punedhenesi, #PunedhenesiEmri #PunedhenesiMbiemri, dhe i punesuar #Emri #Mbiemri, i pranojne te gjitha te 
+drejtat, detyrimet dhe pergjegjesite e caktuara me Ligj, me Kontrate Kolektive dhe me kete Kontrate.
+
+
+
+Data: #DataNenshkrimit;
+
+#PunedhenesiEmriMbiemri:					#EmriMbiemri:
+
+________________						________________

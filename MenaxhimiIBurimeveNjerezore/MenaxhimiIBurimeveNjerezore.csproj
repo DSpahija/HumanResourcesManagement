@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7ECB922B-8E43-4F55-8771-A6B4A9F7E881}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MenaxhimiIBurimeveNjerezore</RootNamespace>
+    <AssemblyName>MenaxhimiIBurimeveNjerezore</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Departamenti.cs" />
+    <Compile Include="DepartamentiForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DepartamentiForm.Designer.cs">
+      <DependentUpon>DepartamentiForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KontrataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KontrataForm.Designer.cs">
+      <DependentUpon>KontrataForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Listimi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Listimi.Designer.cs">
+      <DependentUpon>Listimi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogIn.Designer.cs">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kontrata.cs" />
+    <Compile Include="Lista.cs" />
+    <Compile Include="Permbajtja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Permbajtja.Designer.cs">
+      <DependentUpon>Permbajtja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Personi.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Punedhenesi.cs" />
+    <Compile Include="Punetori.cs" />
+    <Compile Include="PushimeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PushimeForm.Designer.cs">
+      <DependentUpon>PushimeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pushimi.cs" />
+    <Compile Include="Regjistrimi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Regjistrimi.Designer.cs">
+      <DependentUpon>Regjistrimi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrajnimeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrajnimeForm.Designer.cs">
+      <DependentUpon>TrajnimeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrajnimeForm_Regjistrimi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrajnimeForm_Regjistrimi.Designer.cs">
+      <DependentUpon>TrajnimeForm_Regjistrimi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trajnimi.cs" />
+    <EmbeddedResource Include="DepartamentiForm.resx">
+      <DependentUpon>DepartamentiForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KontrataForm.resx">
+      <DependentUpon>KontrataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Listimi.resx">
+      <DependentUpon>Listimi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogIn.resx">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Permbajtja.resx">
+      <DependentUpon>Permbajtja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="PushimeForm.resx">
+      <DependentUpon>PushimeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Regjistrimi.resx">
+      <DependentUpon>Regjistrimi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrajnimeForm.resx">
+      <DependentUpon>TrajnimeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrajnimeForm_Regjistrimi.resx">
+      <DependentUpon>TrajnimeForm_Regjistrimi.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HRLogin.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HRLoginTale.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
